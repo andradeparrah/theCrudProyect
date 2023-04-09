@@ -6,4 +6,3 @@
 
 # MockUp
 <img width="509" alt="mockUp" src="https://user-images.githubusercontent.com/122655558/230754397-b4fce2ae-5543-4934-90da-c6c8a950172a.png">
-# finalCrudProyect
