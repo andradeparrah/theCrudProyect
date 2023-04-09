@@ -1,0 +1,349 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+
+nav div a img{
+    width: 150px;
+    height: 100px;
+    transition: all .3s;
+}
+
+nav div a img:hover{
+    transform: scale(1.1);
+}
+
+.banner {
+    height: 650px;
+    animation: banner 10s infinite linear alternate;
+    background-size: 100% 100%;
+    background-image: url(../assets/BannerThree.jpeg);
+}
+
+header h1 {
+    padding: 80px 200px;
+    color: white;
+    font-size: 38px;
+}
+
+header h2{
+    padding-top: 200px;
+    padding-left: 250px;
+    color: white;
+}
+
+h2 a{
+    color: white;
+    text-decoration: none;
+}
+
+header h3{
+    padding-left: 300px;
+    color: white;
+}
+
+h3 img{
+    height: 60px;
+    width: 120px;
+    padding-top: 20px;
+}
+
+.pro{
+    background-color: rgb(79, 70, 229);
+    border-radius: 5px;
+    padding: 10px 10px;
+    width: 125px;
+    font-size: 13px;
+    font-weight:600;
+    margin-left: 85%;
+    margin-top: 20%;
+    text-align: center;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.pro a {
+    color: white;
+    text-decoration: none;
+}
+
+.pro:hover{
+    transform: scale(1.2);
+    border: 1px solid white;   
+}
+
+
+h5 {
+    background-color: rgb(239, 239, 239);
+    font-size: 36px;
+    text-align: center;
+    padding-top: 30px;
+} 
+
+h5 a {
+    font-size: 36px;
+    background-color: rgb(239, 239, 239);
+    padding-top: 30px;
+}
+
+.services{
+    height: 150px;
+    width: 250px;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: 260px 260px 260px 260px 260px;
+    grid-template-rows: 460px 460px ;
+    column-gap: 20px;
+    row-gap: 40px;
+    padding-left: 25px;
+    padding-top: 30px;
+    background-color: rgb(239, 239, 239);
+    padding-bottom: 100px;
+}
+
+.gridItem{
+    border: solid 1px white;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: .5px .5px 5px grey;
+    transition: all .3s
+}
+
+.gridItem:hover{
+    transform: scale(1.1);
+}
+
+.title{
+    font-size: 22px;
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 10px;
+    line-height: 22px;
+}
+
+
+ul{
+    list-style: none;
+}
+
+.list{
+    text-align: left;
+    font-size: 12px;
+}
+
+.buttons {
+    padding: 5px 15px;
+    border-radius: 80px;
+    color: white;
+    background-color: rgb(79, 70, 229);
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.terms {
+    margin-left: 40px;
+    font-size: 12px;
+    width: 240px;
+    color: rgb(83, 83, 83);
+}
+
+.divBtn{
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+
+.end{
+    background-color: rgba(9, 7, 53, 0.658);
+}
+
+.gridContainerThree {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px ;
+    grid-template-rows: 100px ;
+    color: white;
+    padding: 80px 150px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.top{
+    color: grey;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+ul li a:hover{
+    color: rgb(79, 70, 229);
+    transition: 0.3s;
+}
+
+.brand img{
+    width: 140px;
+}
+
+ul img{
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.ch a{
+    text-decoration: none;
+    color: grey;
+    font-size: 12px;
+
+}
+
+.ch li{
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    padding-left: 20px;
+}
+
+.ch li a{
+    padding-left: 5px;
+}
+
+div li img {
+    width: 15px;
+    height: 15px;
+    padding-left: 50px;
+}
+
+span li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+span li{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bot li{
+    display: inline-block;
+    font-size: 11.5px;
+    padding-top: 20px;
+}
+
+
+span li a:hover{
+    text-decoration: none;
+    color: rgb(52, 211, 153);
+    transition: 0.3;
+}
+
+.bot{
+    padding-left: 440px;
+    padding-bottom: 60px;
+    display: inline-block;
+    font-weight: 400;
+}
+
+label p{
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.header {
+    text-align: center;
+}
+
+input[type=text], input[type=password] {
+    width: 10%;
+    padding: 6px 6px;
+    margin: 4px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+  }
+
+.button {
+    background-color: rgb(79, 70, 229);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: auto;
+    border-radius: 10px;
+  }
+  
+.buttons:hover {
+    opacity: 0.8;
+  }
+  
+  .cancelbtn {
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: auto;
+    background-color: rgb(110, 52, 211);
+    border-radius: 10px;
+  }
+
+  .joinbtn {
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: auto;
+    background-color: rgb(52, 211, 153);
+    border-radius: 10px;
+  }
+
+  
+  
+.container {
+    padding: 16px;
+    text-align: left;
+
+  }
+  
+.psw {
+    color: rgb(110, 52, 211);
+    font-size: 18px;
+    text-align: right;
+}
+
+.psw a{
+    text-decoration: none;
+    color:rgb(52, 211, 153) ;
+}
+
+form div label {
+    color: white;
+}
+

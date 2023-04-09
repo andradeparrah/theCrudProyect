@@ -1,0 +1,149 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+.banner {
+    height: 100%;
+    background-size: 100% 100%;
+    background-image: url(/assets/bannerFive.png);
+}
+
+
+nav div a img{
+    width: 150px;
+    height: 100px;
+    transition: all .3s;
+}
+nav div a img:hover{
+    transform: scale(1.1);
+}
+
+h1{
+    text-align: center;
+}
+
+.vehicleForm {
+    text-align: center;
+    border-style: solid;
+    border-radius: 5px;
+    padding:10px;
+    margin: auto;
+    width: 60%;
+    background-color: white;
+}
+
+
+.vehicleTable {
+    text-align: center;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    width: 60%;
+    margin-bottom: 80px;
+    background-color: white;
+}
+
+
+body > table{
+   width:  80%;
+}
+
+table{
+    border-collapse: collapse;
+}
+table.list{
+    width:100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even),table.list thead>tr {
+    background-color:  rgb(52, 211, 153, .5);
+}
+
+input[type=text], input[type=number] {
+    width: 100%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color:  rgba(55, 59, 111, 0.4);
+}
+
+input[type=submit] {
+    width: 10%;
+    background-color: rgb(79, 70, 229);
+    color: white;
+    padding: 5px 9px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form div.form-action-buttons{
+    text-align: center;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000ee;
+    margin-right: 4px;
+}
+
+label.validation-error{
+    color:   red;
+    margin-left: 5px;
+}
+
+.hide{
+    display:none;
+}
+
+@media only screen and (max-width: 1200px) {
+    input[type=submit] {
+        
+        width: 100%;
+        background-color: rgb(79, 70, 229);
+        color: white;
+        padding: 5px 9px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .vehicleTable {
+        text-align: center;
+        border-style: solid;
+        border-radius: 10px;
+        padding: 20px;
+        margin: auto;
+        width: 80%;
+        margin-bottom: 80px;
+        background-color: white;
+    }
+    
+    
+
+  @media only screen and (max-width: 600px) {
+    .vehicleTable {
+        text-align: center;
+        border-style: solid;
+        border-radius: 10px;
+        padding: 20px;
+        margin: auto;
+        width: 100%;
+        margin-bottom: 80px;
+        background-color: white;
+    }
+  }
+}
