@@ -50,7 +50,7 @@ function onEdit(td) {
     document.getElementById("brand").value = selectedRow.cells[1].innerHTML;
     document.getElementById("model").value = selectedRow.cells[2].innerHTML;
     document.getElementById("year").value = selectedRow.cells[3].innerHTML;
-    
+
 }
 function updateRecord(formData) {
     selectedRow.cells[0].innerHTML = formData.patent;
