@@ -21,6 +21,10 @@ nav div a img:hover{
     transform: scale(1.1);
 }
 
+main {
+    background-color: rgba(248,249,250,255);
+}
+
 h1{
     text-align: center;
 }
@@ -109,6 +113,115 @@ label.validation-error{
     display:none;
 }
 
+.end{
+    background-color: rgba(9, 7, 53);
+}
+
+.gridContainerThree {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px ;
+    grid-template-rows: 100px ;
+    color: white;
+    padding: 80px 150px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.top{
+    color: grey;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+ul li a:hover{
+    color: rgb(79, 70, 229);
+    transition: 0.3s;
+}
+
+.brand img{
+    width: 140px;
+}
+
+ul img{
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.ch a{
+    text-decoration: none;
+    color: grey;
+    font-size: 12px;
+
+}
+
+.ch li{
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    padding-left: 20px;
+}
+
+.ch li a{
+    padding-left: 5px;
+}
+
+div li img {
+    width: 15px;
+    height: 15px;
+    padding-left: 50px;
+}
+
+span li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+span li{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bot li{
+    display: inline-block;
+    font-size: 11.5px;
+    padding-top: 20px;
+}
+
+
+span li a:hover{
+    text-decoration: none;
+    color: rgb(52, 211, 153);
+    transition: 0.3;
+}
+
+.bot{
+    padding-left: 440px;
+    padding-bottom: 60px;
+    display: inline-block;
+    font-weight: 400;
+}
+
+
 @media only screen and (max-width: 1200px) {
     input[type=submit] {
         
@@ -147,3 +260,4 @@ label.validation-error{
     }
   }
 }
+

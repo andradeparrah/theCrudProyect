@@ -185,7 +185,8 @@ ul{
     letter-spacing: 1px;
 }
 
-ul li a{
+
+ li a{
     text-decoration: none;
     color: white;
     line-height: 40px;
