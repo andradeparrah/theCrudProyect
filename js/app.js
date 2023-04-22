@@ -11,7 +11,6 @@ function onFormSubmit(e) {
             updateLS()} 
         else{
         updateRecord(formData);
-        console.log(cars)
         }
         resetForm();
     }
@@ -57,7 +56,6 @@ function insertNewRecord(data) {
     cell4.innerHTML = `<a onClick="onEdit(this,${data.id})">Editar</a>
                        <a onClick="onDelete(this,${data.id})">Eliminar</a>`;
     cars.push(data)
-    console.log (cars)
 }
 
 function resetForm() {
@@ -108,7 +106,6 @@ function onDelete(td,id) {
             row = td.parentElement.parentElement;
             document.getElementById("vehicleList").deleteRow(row.rowIndex);
             cars = cars.filter((car) => car.id !== id)
-            console.log(cars)
           Swal.fire(
             'Eliminado!',
             'Tu auto ha sido eliminado',
@@ -158,15 +155,3 @@ function validate() {
     }
     return isValid;
 }
-// this referencia a "eso" otientada a objetos slice
-
-const input=document.getElementById("patent")
-input.addEventListener("input",function(){
-    if (this.value.length === 6){
-        this.value = this.value.slice(0,6)
-    }
-    else{
-
-        console.log("msj")
-    }
-})
